@@ -1,0 +1,58 @@
+body{
+  
+    margin: 0;
+    
+}
+.header{
+    width: auto;
+    height: 100px;
+    border: 4px solid ;
+    background-color: rgb(255, 255, 255);
+
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    color: brown;
+    font-size: 20px ;
+    font-family: monospace;
+    margin-top: 20px;
+    list-style: none;
+}
+li:hover{
+cursor: pointer;
+color: rgb(17, 16, 16);
+transition: 3s;
+box-shadow: 0px 0px 4px 6px ;
+}
+.con1{
+    width: auto;
+    height: 600px;
+    background-color: rgb(174, 0, 255);
+}
+.con2{
+    width: auto;
+    height: 600px;
+    background-color: rgb(22, 223, 122);
+}
+.span{
+    font-size: 40px;
+    font-family: monospace;
+    color: blueviolet;
+}
+.a1{
+    width: auto;
+    height: 200px;
+    border: 2px solid;
+    border-radius: 0px;
+    background-color: rgb(30, 30, 30);
+    margin: 20px ;
+   
+}
+.a1 ul li{
+    color: aliceblue;
+    transition: 0s;
+    box-shadow: 0px 0px 0px 0px ;
+}
